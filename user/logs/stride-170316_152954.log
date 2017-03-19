@@ -1,0 +1,22 @@
+TTLocalizer: Running in language: English
+OTPLocalizer: Running in language: English
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x1E4C0A30>}
+__handleAvatarChooserDone: 100000035, 'Lucky Abigail', ('cls', 'ld', 'l', 'f', (0.96, 0.69, 0.69, 1.0), (1.0, 1.0, 1.0, 1.0), (0.96, 0.69, 0.69, 1.0), (0.96, 0.69, 0.69, 1.0), 16, 27, 0, 7, 4, 8), 0
+entered wait for zone redirect
+entered wait for set zone response - 2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_8/dna/storage_BR.pdna
+Reading DNA file... phase_8/dna/storage_BR_sz.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_sz.pdna
+entered wait for zone redirect
+entered wait for set zone response - 2
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_8/dna/storage_BR_town.pdna
+Reading DNA file... phase_8/dna/the_burrrgh_3200.pdna
+chooseFireOpenShot <function avatarCloseUpThreeQuarterRightShot at 0x183525B0>
+chooseFireOpenShot <function allGroupLowShot at 0x183522F0>
+Warning: NodePath.remove() is deprecated.  Use remove_node() instead.

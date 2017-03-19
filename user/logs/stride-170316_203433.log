@@ -1,0 +1,71 @@
+TTLocalizer: Running in language: English
+OTPLocalizer: Running in language: English
+Preloading suits...
+Preloading Toon heads...
+Preloading avatars...
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x20437A80>}
+__handleAvatarChooserDone: 100000046, 'Madame Maggie Preciousglop', ('dss', 'md', 'l', 'f', (0.54, 0.28, 0.75, 1.0), (1.0, 1.0, 1.0, 1.0), (0.54, 0.28, 0.75, 1.0), (0.54, 0.28, 0.75, 1.0), 7, 1, 7, 1, 3, 8), 1
+__handleAvatarChooserDone: 100000054, 'Violet', ('dss', 'md', 'l', 'f', (0.55, 0.58, 0.87, 1.0), (1.0, 1.0, 1.0, 1.0), (0.55, 0.58, 0.87, 1.0), (0.55, 0.58, 0.87, 1.0), 1, 25, 1, 25, 8, 9), 5
+__handleAvatarChooserDone: 100000048, 'Sheriff Poppy Lemonwicket', ('cls', 'md', 'l', 'f', (0.99, 0.95, 0.59, 1.0), (1.0, 1.0, 1.0, 1.0), (0.99, 0.95, 0.59, 1.0), (0.99, 0.95, 0.59, 1.0), 9, 3, 9, 3, 7, 4), 3
+__handleAvatarChooserDone: 100000055, 'Silly Jade Sniffleroni', ('rsl', 'ld', 'm', 'f', (0.99, 0.69, 0.51, 1.0), (1.0, 1.0, 1.0, 1.0), (0.99, 0.69, 0.51, 1.0), (0.99, 0.69, 0.51, 1.0), 12, 27, 0, 27, 0, 5), 2
+__handleAvatarChooserDone: 100000035, 'Lucky Abigail', ('cls', 'ld', 'l', 'f', (0.96, 0.69, 0.69, 1.0), (1.0, 1.0, 1.0, 1.0), (0.96, 0.69, 0.69, 1.0), (0.96, 0.69, 0.69, 1.0), 16, 27, 0, 7, 4, 8), 0
+entered wait for zone redirect
+entered wait for set zone response - 2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_14/dna/storage_CZ.pdna
+Reading DNA file... phase_14/dna/storage_CZ_sz.pdna
+Reading DNA file... phase_14/dna/construction_zone_sz.pdna
+entered wait for zone redirect
+entered wait for set zone response - 2
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_14/dna/storage_CZ_town.pdna
+Reading DNA file... phase_14/dna/construction_zone_14200.pdna
+entered wait for zone redirect
+entered wait for set zone response - 2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_MM.pdna
+Reading DNA file... phase_5/dna/storage_town.pdna
+Reading DNA file... phase_6/dna/storage_MM_town.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_4400.pdna
+entered wait for zone redirect
+entered wait for set zone response - 2
+entered wait for zone redirect
+entered wait for set zone response - 2
+entered wait for zone redirect
+entered wait for set zone response - 2
+Reading DNA file... phase_6/dna/storage_MM_sz.pdna
+Reading DNA file... phase_6/dna/minnies_melody_land_sz.pdna
+entered wait for zone redirect
+entered wait for set zone response - 2
+Reading DNA file... phase_4/dna/storage.pdna
+Reading DNA file... phase_3.5/dna/storage_interior.pdna
+Reading DNA file... phase_6/dna/storage_OZ.pdna
+Reading DNA file... phase_6/dna/storage_OZ_sz.pdna
+Reading DNA file... phase_6/dna/outdoor_zone_sz.pdna
+TIMER startTime 348
+SET TABLE STATE
+ GETTING 2 None 0
+SET TABLE STATE
+ GETTING 2 None 0
+SET TABLE STATE
+ GETTING 2 None 0
+Traceback (most recent call last):
+  File "toontown\safezone\OZSafeZoneLoader.py", line 119, in doGeyser
+    self.setGeyserAnim()
+  File "toontown\safezone\OZSafeZoneLoader.py", line 150, in setGeyserAnim
+    distance = self.geyserPlacer.getDistance(av)
+AssertionError: _error_type == ET_ok && other._error_type == ET_ok at line 941 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "otp\otpbase\OTPBase.py", line 34, in run
+    taskMgr.run()
+  File "C:\Panda3D-1.10.0\direct\task\Task.py", line 508, in run
+    self.step()
+  File "C:\Panda3D-1.10.0\direct\task\Task.py", line 465, in step
+    self.mgr.poll()
+  File "toontown\safezone\OZSafeZoneLoader.py", line 119, in doGeyser
+    self.setGeyserAnim()
+  File "toontown\safezone\OZSafeZoneLoader.py", line 150, in setGeyserAnim
+    distance = self.geyserPlacer.getDistance(av)
+AssertionError: _error_type == ET_ok && other._error_type == ET_ok at line 941 of panda/src/pgraph/nodePath.cxx

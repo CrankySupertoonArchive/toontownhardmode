@@ -1,0 +1,12 @@
+id: 100000028
+class: Account
+fields:
+  ACCOUNT_AV_SET: "[0, 100000029, 0, 0, 0, 0]"
+  ESTATE_ID: 0
+  ACCOUNT_AV_SET_DEL: "[]"
+  CREATED: "\"Sun Aug 07 23:51:45 2016\""
+  LAST_LOGIN: "\"Sun Aug 07 23:55:47 2016\""
+  ACCOUNT_ID: "\"TheChronicler\""
+  ACCESS_LEVEL: 700
+  LAST_LOGIN_TS: 1470628548
+  CHAT_SETTINGS: "[1, 1]"

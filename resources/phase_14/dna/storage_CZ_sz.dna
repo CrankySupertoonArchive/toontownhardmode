@@ -1,0 +1,57 @@
+place_model "phase_14/models/construction_zone_sz" [
+ 	store_node [ "prop" "construction_zone_sz" "" ]
+	]
+place_model "phase_6/models/modules/safe_zone_tunnel_DD" [
+	store_node [ "prop" "prop_safe_zone_tunnel" ]
+        ]
+
+place_model "phase_6/models/modules/trolley_station_DD" [
+	store_node [ "prop" "prop_trolley_station" ]
+	]
+
+place_model "phase_6/models/modules/gagShop_CZ" [
+	store_node [ "toon_landmark" "toon_landmark_CZ_gag_shop" "" ]
+        ]
+
+place_model "phase_6/models/modules/PetShopExterior_DD" [
+	store_node [ "toon_landmark" "toon_landmark_DD_pet_shop" "" ]
+        ]
+
+place_model "phase_4/models/modules/library" [
+	store_node [ "toon_landmark" "toon_landmark_TT_library" "" ]
+        ]
+
+place_model "phase_6/models/modules/clothshopDD" [
+	store_node [ "toon_landmark" "toon_landmark_DD_clothes_shop" "" ]
+        ]
+
+hood_model "phase_3.5/models/modules/hqTT" [
+	store_node [ "toon_landmark" "toon_landmark_hqTT" "" ]
+	]
+
+hood_model "phase_3.5/models/props/HQ_periscope-mod" [
+	store_node [ "prop" "animated_prop_HQPeriscopeAnimatedProp" "periscope" ]
+	]
+
+place_model "phase_4/models/props/exteriorfish-zero" [
+	store_node [ "prop" "animated_prop_PetShopFishAnimatedProp" "exteriorfish" ]
+	]
+
+place_model "phase_6/models/golf/Golfzone_To_Bossbot_Tunnelcz" [
+	store_node [ "prop" "prop_golf_cog_tunnel" "" ]
+	]
+
+place_model "phase_6/models/karting/cone" [
+	store_node [ "prop" "gs_cone" "" ]
+	]
+
+place_model "phase_5/models/props/tire" [
+	store_node [ "prop" "prop_tire" "tire" ]
+	]
+
+place_model "phase_5/models/props/pipes" [
+     store_node [ "prop" "prop_CZ_pipes" "pipes" ]
+     ]
+place_model "phase_5/models/props/i-beam" [
+     store_node [ "prop" "prop_ibeam" "ibeam" ]
+     ]
